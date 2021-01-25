@@ -53,10 +53,11 @@ class AnswerActivity : AppCompatActivity() {
         answerList.put("4",listOf("ic_025_hug","โอ๋ๆๆๆๆๆ\nกอดๆ ไม่เป็นไรนะ"))
         answerList.put("5",listOf("ic_002_hangout","ลองออกเดินทางแล้วจะรู้คำตอบของชีวิต"))
         answerList.put("6",listOf("ic_007_memories","บางอย่างก็ควรเก็บไว้แค่ความทรงจำ"))
-        answerList.put("7",listOf("ic_011_high_five","อย่าดีกกว่าเลย!"))
+        answerList.put("7",listOf("ic_011_high_five","อย่าดีกว่า!"))
         answerList.put("8",listOf("ic_018_pinky_promise","สัญญาว่าจะทำให้ดีที่สุด"))
         answerList.put("9",listOf("ic_020_bracelet","แตกต่างแต่ไม่แตกแยก \n รออะไรล่ะ!!"))
         answerList.put("10",listOf("ic_036_handshake","จับมือไว้แล้วไปด้วยกัน!!"))
+        answerList.put("11",listOf("ic_036_handshake","รู้อยู่แก่ใจ"))
 
         var random = Random.nextInt(0,answerList.size)
         var answer = answerList[random.toString()]
